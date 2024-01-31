@@ -7,7 +7,7 @@ class Item
 
     public $manufacturingCompany;
     public $itemName;
-    public $prezzo;
+    private $prezzo;
     public $img;
     public $category;
 
@@ -19,5 +19,10 @@ class Item
         $this->prezzo = $_prezzo;
         $this->img = $_img;
         $this->category = $_category;
+    }
+
+    public function getPrice()
+    {
+        return $this->prezzo;
     }
 }

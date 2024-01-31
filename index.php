@@ -35,7 +35,7 @@ require_once __DIR__ . '/db.php';
                                 <p class="card-text"><?php echo "Peso: " . $item->peso ?></p>
                                 <p class="card-text"><?php echo " Calorie: " . $item->kcals . " Data di scadenza " . $item->expire_date ?></p>
                                 <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
-                                <p class="card-text">Prezzo:<?php echo $item->prezzo . "$" ?></p>
+                                <p class="card-text">Prezzo:<?php echo $item->getPrice() . "$" ?></p>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ require_once __DIR__ . '/db.php';
                                 <p class="card-text"><?php echo "Peso: " . $item->peso ?></p>
                                 <p class="card-text"><?php echo " Materiale: " . $item->material . " Durabilità " . $item->durability ?></p>
                                 <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
-                                <p class="card-text">Prezzo:<?php echo $item->prezzo . "$" ?></p>
+                                <p class="card-text">Prezzo:<?php echo $item->getPrice() . "$" ?></p>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ require_once __DIR__ . '/db.php';
                                 <p class="card-text"><?php echo "Peso: " . $item->peso ?></p>
                                 <p class="card-text"><?php echo " Materiale: " . $item->material . " Grandezza: " . $item->size ?></p>
                                 <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
-                                <p class="card-text">Prezzo:<?php echo $item->prezzo . "$" ?></p>
+                                <p class="card-text">Prezzo:<?php echo $item->getPrice() . "$" ?></p>
                             </div>
                         </div>
                     </div>
