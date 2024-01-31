@@ -21,11 +21,11 @@ $productsFood = [
 ];
 
 $productsAccessory = [
-    new ItemAccessory('Voliera', 'Wilma in Legno', 78, 'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg', $uccello, '5gk', 'Wood', 'High'),
-    new ItemAccessory('EasyCrystal', 'Cartucce Filtranti per Filtro ', 5.33, 'https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', $pesce, '100gr', 'Carbone Attivo', 'Medium'),
+    new ItemAccessory('Voliera', 'Wilma in Legno', 78, 'https://arcaplanet.vtexassets.com/arquivos/ids/258384/voliera-wilma1.jpg', $uccello, 'Wood', '5gk',  'High'),
+    new ItemAccessory('EasyCrystal', 'Cartucce Filtranti per Filtro ', 5.33, 'https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', $pesce, 'Carbone Attivo', '100gr', 'Medium'),
 ];
 
 $productsGame = [
-    new ItemGame('Kong', 'Kong Classic', 4.99, 'https://arcaplanet.vtexassets.com/arquivos/ids/256599/kong-classic1.jpg', $cane, '97gr', 'Plastic', 'Tiny'),
-    new ItemGame('Trixie', 'Topini di peluche', 2.55, 'https://arcaplanet.vtexassets.com/arquivos/ids/223852/trixie-gatto-gioco-active-mouse-peluche.jpg', $gatto, '22gr', 'Peluche', 'Tiny'),
+    new ItemGame('Kong', 'Kong Classic', 4.99, 'https://arcaplanet.vtexassets.com/arquivos/ids/256599/kong-classic1.jpg', $cane, 'Plastic', '97gr',  'Tiny'),
+    new ItemGame('Trixie', 'Topini di peluche', 2.55, 'https://arcaplanet.vtexassets.com/arquivos/ids/223852/trixie-gatto-gioco-active-mouse-peluche.jpg', $gatto, 'Peluche', '22gr',  'Tiny'),
 ];
