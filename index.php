@@ -31,7 +31,7 @@ require_once __DIR__ . '/db.php';
                             <div class="card-body text-center">
                                 <h5 class="card-title"><?php echo $item->itemName ?></h5>
                                 <h5 class="card-subtitle"><?php echo $item->manufacturingCompany ?></h5>
-                                <p class="card-text "><?php echo "Cibo per " . $item->category->name ?></p>
+                                <p class="card-text "><?php echo "Categoria: " . $item->category->name ?></p>
                                 <p class="card-text"><?php echo "Peso: " . $item->peso ?></p>
                                 <p class="card-text"><?php echo " Calorie: " . $item->kcals . " Data di scadenza " . $item->expire_date ?></p>
                                 <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
@@ -51,7 +51,7 @@ require_once __DIR__ . '/db.php';
                             <div class="card-body text-center">
                                 <h5 class="card-title"><?php echo $item->itemName ?></h5>
                                 <h5 class="card-subtitle"><?php echo $item->manufacturingCompany ?></h5>
-                                <p class="card-text "><?php echo "Cibo per " . $item->category->name ?></p>
+                                <p class="card-text "><?php echo "Categoria: " . $item->category->name ?></p>
                                 <p class="card-text"><?php echo "Peso: " . $item->peso ?></p>
                                 <p class="card-text"><?php echo " Materiale: " . $item->material . " Durabilità " . $item->durability ?></p>
                                 <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
@@ -71,7 +71,7 @@ require_once __DIR__ . '/db.php';
                             <div class="card-body text-center">
                                 <h5 class="card-title"><?php echo $item->itemName ?></h5>
                                 <h5 class="card-subtitle"><?php echo $item->manufacturingCompany ?></h5>
-                                <p class="card-text "><?php echo "Cibo per " . $item->category->name ?></p>
+                                <p class="card-text "><?php echo "Categoria: " . $item->category->name ?></p>
                                 <p class="card-text"><?php echo "Peso: " . $item->peso ?></p>
                                 <p class="card-text"><?php echo " Materiale: " . $item->material . " Grandezza: " . $item->size ?></p>
                                 <a href="#" class="btn btn-primary">Aggiungi al carrello</a>
